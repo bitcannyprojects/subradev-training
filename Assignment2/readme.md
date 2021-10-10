@@ -1,6 +1,6 @@
 # Assignment-2
 
-# 1. Create functions for the Calculator class that can do the following:
+## 1. Create functions for the Calculator class that can do the following:
 Add two numbers.
 Subtract two numbers.
 Multiply two numbers.
