@@ -12,7 +12,7 @@ myFunc();
 
 
 /*
-output:--
+output:-
     First Func
     Promise 1
     TimeOut 1
