@@ -7,7 +7,6 @@ Multiply two numbers.
 Divide two numbers.
 
 Examples:
-    
         var calculator = new Calculator()
 
         calculator.add(10, 5) ➞ 15
@@ -31,7 +30,6 @@ The insurance guy calls again and apologizes. They found another policy made by 
 Given an object of the stolen items and a limit, return the difference between the total value of those items and the limit of the policy.
 
 Examples:
-
     calculateDifference({ "baseball bat": 20 }, 5) ➞ 15
 
     calculateDifference({ skate: 10, painting: 20 }, 19) ➞ 11
@@ -51,7 +49,6 @@ The sum of the items will always be greater than the limit.
 I'm trying to write a function to flatten an array of subarrays into one array. (Suppose I am unware there is a .flat() method in the Array prototype). In other words, I want to transform this: [[1, 2], [3, 4]] into [1, 2, 3, 4].
 
 Here is my code:
-
         function flatten(arr) {
         arr2 = [];
         for (let i = 0; i < arr.length; i++) {
@@ -64,7 +61,6 @@ Here is my code:
 But...it doesn't seem to be working! Fix my code so that it correctly flattens the array.
 
 Examples:
-
         flatten([[1, 2], [3, 4]]) ➞ []
         // Expected: [1, 2, 3, 4]
 
