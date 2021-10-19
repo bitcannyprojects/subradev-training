@@ -1,7 +1,7 @@
 function main(count, time, callback) {
 
     let i = 0
-    let inter = setInterval(() => {
+    const inter = setInterval(() => {
         i++
         callback(i)
         if (i === count) {
