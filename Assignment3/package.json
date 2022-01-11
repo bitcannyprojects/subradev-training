@@ -1,0 +1,31 @@
+{
+  "name": "express_crud_app",
+  "version": "1.0.0",
+  "description": "express crud app with unit testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage":"nyc --reporter=lcov --reporter=text npm run test",
+    "start": "nodemon index.js"
+  },
+  "nyc":{
+    "exclude":"test"
+  },
+  "author": "subradev sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0"
+  }
+}
